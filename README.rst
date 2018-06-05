@@ -1,15 +1,16 @@
-White: Black, but brighter (PEP8–inspired)
-==========================================
+Grey: Black, but brighter, but not as bright as White (arbitrarily–inspired)
+============================================================================
 
 `Black <https://github.com/ambv/black>`_ is an amazing tool for auto–formatting
-Python code in a style that I prefer. I use it in all my projects.
+Python code in a style that I don't really care about, but I like consistency,
+so I use it in all my projects.
 
 It has **one** configuration option — to change its default line–length of ``88``
-chars to, say, ``79``, like `PEP8 <http://pep8.org>`_ recommends.
+chars to, say, ``120``, like I like.
 
 -----------
 
-That is *exactly* what **white** does. It invokes ``$ black --line-length 79`` on your behalf.
+That is *exactly* what **grey** does. It invokes ``$ black --line-length 120`` on your behalf.
 
 
 Usage
@@ -17,11 +18,9 @@ Usage
 
 ::
 
-    $ white myapp.py
+    $ grey myapp.py
     reformatted myapp.py
-    
 
-.. image:: http://share.kennethreitz.org/2L2m1U1A3m0L/Screen%20Shot%202018-03-15%20at%206.21.04%20AM.png
 
 
 Installation

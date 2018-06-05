@@ -3,7 +3,7 @@ import sys
 import black
 import delegator
 
-PEP8_LINE_LENGTH = 79
+PEP8_LINE_LENGTH_NOT = 120
 
 
 def get_black_executable():
@@ -18,7 +18,7 @@ def main():
     args = ' '.join(sys.argv[1:])
     # Spawn a subprocess.
     c = delegator.run(
-        f"{python} {black} {args} --line-length {PEP8_LINE_LENGTH}"
+        f"{python} {black} {args} --line-length {PEP8_LINE_LENGTH_NOT}"
     )
     # Print output.
     print(c.out)
