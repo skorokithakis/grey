@@ -28,5 +28,5 @@ Installation
 
 ::
 
-	$ pipenv install white
+	$ pipenv install grey
 	✨🍰✨
